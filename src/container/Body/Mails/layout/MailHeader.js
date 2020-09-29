@@ -16,7 +16,7 @@ export class MailHeader extends Component {
           <i className="fas fa-ellipsis-v" style={{ margin: " 0 1rem" }}></i>
         </div>
         <div className="mail-head-end">
-          <button>1-50 of 3456</button>
+          <button style={{ color: "black" }}>1-50 of 3456</button>
           <i className="fas fa-angle-left" style={{ margin: " 0 1rem" }}></i>
           <i className="fas fa-angle-right" style={{ margin: " 0 1rem" }}></i>
           <div>
