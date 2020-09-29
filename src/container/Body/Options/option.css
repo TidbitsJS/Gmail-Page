@@ -74,6 +74,19 @@
   border-bottom: thin solid gray;
 }
 
+.option-hangout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.option-hangout-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .option-bottom {
   width: 100%;
   flex: 0.4;
@@ -82,7 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 
   border-top: thin solid gray;
 }
