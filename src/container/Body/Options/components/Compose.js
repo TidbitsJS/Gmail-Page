@@ -4,7 +4,7 @@ class Compose extends Component {
   render() {
     return (
       <div className="head-compose">
-        <i class="fas fa-plus"></i>
+        <i className="fas fa-plus"></i>
         <p>Compose</p>
       </div>
     );

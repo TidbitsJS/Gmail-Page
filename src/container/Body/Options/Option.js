@@ -38,8 +38,8 @@ export class Option extends Component {
           </div>
         </div>
         <div className="option-bottom">
-          <i class="fas fa-user"></i>
-          <i class="fab fa-meetup"></i>
+          <i className="fas fa-user"></i>
+          <i className="fab fa-meetup"></i>
         </div>
       </div>
     );

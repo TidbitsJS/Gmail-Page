@@ -6,7 +6,7 @@ class Email extends Component {
     return (
       <>
         {emails.map((item, index) => (
-          <div className="mail-email">
+          <div className="mail-email" key={index + item.name}>
             <div className="email-info">
               <i className="far fa-square"></i>
               <i className="fas fa-star"></i>
