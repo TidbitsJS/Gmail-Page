@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./mail.css";
 import MailHeader from "./layout/MailHeader";
+import Email from "./layout/Email";
 
 export class Mail extends Component {
   render() {
@@ -22,6 +23,7 @@ export class Mail extends Component {
               <p>Promotions</p>
             </div>
           </div>
+          <Email />
         </div>
       </div>
     );
