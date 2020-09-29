@@ -35,6 +35,36 @@
   color: red;
 }
 
+.head-list {
+  margin-top: 1.3rem;
+  background-color: #fff;
+  width: 100%;
+
+  padding: 0.5rem 0;
+  font-size: 19px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.head-list-icon {
+  flex: 0.5;
+  margin-left: 0.5rem;
+}
+
+.head-list-name {
+  flex: 2;
+}
+
+.head-list-value {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
 .option-bottom {
   width: 100%;
   flex: 0.4;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./option.css";
 import Compose from "./components/Compose";
+import OptionList from "./components/OptionList";
 
 export class Option extends Component {
   render() {
@@ -8,6 +9,7 @@ export class Option extends Component {
       <div className="mail-options">
         <div className="option-head">
           <Compose />
+          <OptionList />
         </div>
         <div className="option-bottom">
           <i class="fas fa-user"></i>
