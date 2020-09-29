@@ -39,3 +39,35 @@
 .mail-head-end button:hover {
   background-color: #dadada;
 }
+
+.mailing {
+  width: 100%;
+}
+
+.mail-tabs {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.mail-primary,
+.mail-social,
+.mail-promotion {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 21px;
+}
+
+.mail-tabs i {
+  margin: 0 1rem;
+  font-size: 25px;
+}
