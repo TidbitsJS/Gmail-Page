@@ -2,4 +2,52 @@
   flex: 1;
   background-color: red;
   height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.option-head {
+  width: 100%;
+  flex: 5;
+  background-color: cyan;
+}
+
+.head-compose {
+  width: 70%;
+  background-color: white;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-size: 21px;
+  border-radius: 23px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.head-compose i {
+  color: red;
+}
+
+.option-bottom {
+  width: 100%;
+  flex: 0.4;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+
+  border-top: thin solid gray;
+}
+
+.option-bottom i {
+  margin: 0 1rem;
 }
