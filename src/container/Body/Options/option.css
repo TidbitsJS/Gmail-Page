@@ -65,13 +65,13 @@
 
 .option-list-div {
   padding-bottom: 0.3rem;
-  border-bottom: thin solid gray;
+  border-bottom: thin solid #cccccc;
 }
 
 .option-list-meet {
   margin-top: 0.3rem;
   padding-bottom: 0.3rem;
-  border-bottom: thin solid gray;
+  border-bottom: thin solid #cccccc;
 }
 
 .option-hangout {
@@ -97,7 +97,7 @@
   align-items: center;
   font-size: 1.4rem;
 
-  border-top: thin solid gray;
+  border-top: thin solid #cccccc;
 }
 
 .option-bottom i {

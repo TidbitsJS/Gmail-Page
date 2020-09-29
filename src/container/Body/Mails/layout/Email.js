@@ -1,21 +1,26 @@
 import React, { Component } from "react";
+import emails from "../Database/EData";
 
 class Email extends Component {
   render() {
     return (
-      <div className="mail-email">
-        <div className="email-info">
-          <i className="far fa-square"></i>
-          <i className="fas fa-star"></i>
-          <p>Internshala</p>
-        </div>
-        <div className="email-content">
-          <p>Sujata, 15 New Internships Matching Your Profile - Apply Today!</p>
-        </div>
-        <div className="email-time">
-          <p>6:47 PM</p>
-        </div>
-      </div>
+      <>
+        {emails.map((item, index) => (
+          <div className="mail-email">
+            <div className="email-info">
+              <i className="far fa-square"></i>
+              <i className="fas fa-star"></i>
+              <p>{item.name}</p>
+            </div>
+            <div className="email-content">
+              <p>{item.content}</p>
+            </div>
+            <div className="email-time">
+              <p>{item.time}</p>
+            </div>
+          </div>
+        ))}
+      </>
     );
   }
 }

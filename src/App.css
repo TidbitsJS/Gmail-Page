@@ -1,6 +1,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  background: rgba(255, 255, 255, 0.902);
 }
 
 .App {
@@ -9,7 +10,7 @@ body {
 }
 
 .body {
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 60px);
 
   display: flex;
