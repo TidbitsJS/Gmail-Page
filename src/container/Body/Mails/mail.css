@@ -2,3 +2,40 @@
   flex: 4;
   height: 100%;
 }
+
+.mail-head {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.mail-head-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mail-head-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mail-head-end button {
+  padding: 0.6rem 1rem;
+  font-size: 15px;
+
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.mail-head-end button:hover {
+  background-color: #dadada;
+}
