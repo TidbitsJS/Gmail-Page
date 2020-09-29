@@ -7,12 +7,12 @@ export const data1 = [
   {
     icon: "fas fa-star",
     name: "Starred",
-    value: 10,
+    value: 0,
   },
   {
     icon: "fas fa-clock",
     name: "Snoozed",
-    value: 2,
+    value: 0,
   },
   {
     icon: "far fa-share-square",
