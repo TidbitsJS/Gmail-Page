@@ -15,7 +15,7 @@
 
 .head-compose {
   width: 70%;
-  background-color: white;
+  background-color: #fff;
   height: 50px;
   margin-top: 1rem;
   margin-left: 0.5rem;
@@ -32,6 +32,10 @@
 
 .head-compose i {
   color: red;
+}
+
+.head-compose p {
+  background-color: #fff;
 }
 
 .head-list {
