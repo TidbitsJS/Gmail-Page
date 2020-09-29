@@ -1,0 +1,82 @@
+.mail-heading {
+  width: 100vw;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mail-icons {
+  flex: 1;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-size: 21px;
+  padding-left: 1rem;
+}
+
+.mail-icons i {
+  margin: 0 1rem;
+  font-size: 2.2rem;
+}
+
+.mail-icons h3 {
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.mail-search {
+  flex: 3;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-input {
+  width: 70%;
+  margin-left: 1rem;
+  height: 75%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-radius: 5px;
+  background-color: #f1f3f4;
+}
+
+.search-input i {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.search-input input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  margin-left: 0.5rem;
+  font-size: 17px;
+  color: #000;
+}
+
+.mail-info {
+  flex: 1;
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mail-info i {
+  font-size: 2rem;
+  margin: 0 1rem;
+}
