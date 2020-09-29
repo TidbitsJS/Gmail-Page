@@ -1,15 +1,21 @@
 import React, { Component } from "react";
+import data from "../Data/Static";
 
 class OptionList extends Component {
   render() {
+    console.log(data);
     return (
-      <div className="head-list">
-        <div className="head-list-icon">
-          <i className="fab fa-xbox"></i>
-        </div>
-        <div className="head-list-name">Inbox</div>
-        <div className="head-list-value">3456</div>
-      </div>
+      <>
+        {data.map((item, index) => (
+          <div className="head-list" key={index + item.name}>
+            <div className="head-list-icon">
+              <i className={item.icon}></i>
+            </div>
+            <div className="head-list-name">{item.name}</div>
+            <div className="head-list-value">{item.value}</div>
+          </div>
+        ))}
+      </>
     );
   }
 }
