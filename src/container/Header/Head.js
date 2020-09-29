@@ -14,6 +14,10 @@ class Head extends Component {
           <div className="search-input">
             <i className="fas fa-search"></i>
             <input type="text" placeholder="Search Email" />
+            <i
+              className="fas fa-angle-down"
+              style={{ margin: " 0 0.5rem" }}
+            ></i>
           </div>
         </div>
         <div className="mail-info">

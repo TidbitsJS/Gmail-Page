@@ -41,7 +41,7 @@
 }
 
 .search-input {
-  width: 70%;
+  width: 80%;
   margin-left: 1rem;
   height: 75%;
 
@@ -59,10 +59,11 @@
 }
 
 .search-input input {
+  width: 87%;
   border: 0;
   outline: 0;
   background: transparent;
-  margin-left: 0.5rem;
+  margin-left: 0.7rem;
   font-size: 17px;
   color: #000;
 }
