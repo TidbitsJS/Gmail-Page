@@ -39,7 +39,7 @@
   width: 100%;
 
   padding: 0.5rem 0;
-  font-size: 19px;
+  font-size: 17px;
 
   display: flex;
   justify-content: flex-start;
@@ -63,6 +63,17 @@
   margin-right: 0.5rem;
 }
 
+.option-list-div {
+  padding-bottom: 0.3rem;
+  border-bottom: thin solid gray;
+}
+
+.option-list-meet {
+  margin-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: thin solid gray;
+}
+
 .option-bottom {
   width: 100%;
   flex: 0.4;
@@ -71,7 +82,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 
   border-top: thin solid gray;
 }

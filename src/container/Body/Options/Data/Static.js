@@ -1,4 +1,4 @@
-const data = [
+export const data1 = [
   {
     icon: "fab fa-xbox",
     name: "Inbox",
@@ -36,4 +36,15 @@ const data = [
   },
 ];
 
-export default data;
+export const data2 = [
+  {
+    icon: "fas fa-video",
+    name: "Start a meeting",
+    value: 0,
+  },
+  {
+    icon: "fas fa-keyboard",
+    name: "Join a meeting",
+    value: 0,
+  },
+];
